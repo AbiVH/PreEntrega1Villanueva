@@ -6,15 +6,16 @@ import NavBar from './components/NavBar'
 const App = () => {
   return (
     <>
-    
-      <div>
+    {/* Se crea el NavBar */}
+     
         <NavBar />
-      </div>
-      <div>
+  
+      {/* Se coloca el componente para el greeting */}
+  
         <ItemListContainer
         Greeting="Hola Profe!! :D"
         />  
-      </div>
+    
     </>
  
   )
